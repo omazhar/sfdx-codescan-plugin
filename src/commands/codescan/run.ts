@@ -51,7 +51,7 @@ export default class Run extends SfdxCommand {
     qgtimeout: flags.integer({description: messages.getMessage('qgtimeoutFlagDescription')})
   };
 
-  private static SONAR_SCANNER_VERSION = '3.3.0.1492';
+  private static SONAR_SCANNER_VERSION = '4.7.0.2747';
 
   protected varargValues = [];
   protected codescanPath = null;
